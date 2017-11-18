@@ -13,3 +13,4 @@ const emails =[
 ]
 
 const icebreakerResponses = IcebreakerResponse.BatchCreate(emails)
+IcebreakerResponse
