@@ -1,9 +1,7 @@
-class IcebreakerResponse {
-  constructor(email) {
-    this.email = email;
-    this.BatchCreate()
+function IcebreakerResponse() {
+}
 
-  IcebreakerResponse.BatchCreate = function(emails){
+IcebreakerResponse.BatchCreate = function(emails){
     return emails.map(function(icebreakerResponses){
       return new IcebreakerResponse(icebreakerResponses[0], icebreakerResponses[1])
   })
