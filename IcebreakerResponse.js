@@ -6,6 +6,6 @@ function IcebreakerResponse(email){
     return new IcebreakerResponse(icebreakerResponseEmail[0], icebreakerResponseEmail[1])
   })
 }
+const email = []
 
-
-
+let users = User.BatchCreate(data)
