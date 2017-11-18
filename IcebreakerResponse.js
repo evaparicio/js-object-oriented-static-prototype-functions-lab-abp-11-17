@@ -3,11 +3,11 @@ class IcebreakerResponse {
     this.email = email;
     this.BatchCreate()
 
-    IcebreakerResponse.BatchCreate = function(emails){
-        return emails.map(function(icebreakerResponses){
-          return new IcebreakerResponse(icebreakerResponses[0], icebreakerResponses[1])
+  IcebreakerResponse.BatchCreate = function(emails){
+    return emails.map(function(icebreakerResponses){
+      return new IcebreakerResponse(icebreakerResponses[0], icebreakerResponses[1])
   })
-}}
+}
 const emails =[
   ["avi@flatironschool.com"],
   ["grace@hopper.com"],
