@@ -6,7 +6,7 @@ function IcebreakerResponse(email){
       return new IcebreakerResponse(icebreakerResponses[0], icebreakerResponses[1])
   })
 }}
-const emails =[
+const email =[
   ["avi@flatironschool.com"],
   ["grace@hopper.com"],
   ["alan@xparc.com"]
