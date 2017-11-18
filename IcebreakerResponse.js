@@ -1,5 +1,5 @@
 function IcebreakerResponse(email){
-  this.email = email
+  this.email = email;
   this.BatchCreate()
   IcebreakerResponse.BatchCreate = function(emails){
     return emails.map(function(icebreakerResponses){
