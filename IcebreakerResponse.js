@@ -5,7 +5,7 @@ function IcebreakerResponse(email){
     return emails.map(function(icebreakerResponses){
       return new IcebreakerResponse(icebreakerResponses[0], icebreakerResponses[1])
   })
-}
+}}
 const emails =[
   ["avi@flatironschool.com"],
   ["grace@hopper.com"],
